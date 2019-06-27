@@ -26,5 +26,5 @@ python train_model.py
 
 O uso do modelo para resolução de _Captchas_:
 ```
-solve_captchas_with_model.py
+python solve_captchas_with_model.py
 ```
