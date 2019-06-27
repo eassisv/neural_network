@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from keras.models import Sequential
 from keras.layers.convolutional import Conv2D, MaxPooling2D
 from keras.layers.core import Flatten, Dense
-from helpers import resize_to_fit
+from helpers import resize_to_fit as resize
 
 
 # inicializa os dados e os rotulos
