@@ -72,4 +72,4 @@ model.fit(
     verbose=1,
 )
 # salva o modelo
-model.save(captcha_model.hdf5)
+model.save("captcha_model.hdf5")
