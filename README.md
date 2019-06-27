@@ -14,12 +14,17 @@ pip install -r requirements.txt
 ### Execução
 Depois de instaladas as dependências:
 
-Para o tratamento dos _Captchas_ para o treinamento da rede:
+O tratamento dos _Captchas_ para o treinamento da rede:
 ```
 python extract_single_letters_from_captchas.py
 ```
 
-Para a criação do modelo/treino da rede:
+A criação do modelo/treino da rede:
 ```
 python train_model.py
+```
+
+O uso do modelo para resolução de _Captchas_:
+```
+solve_captchas_with_model.py
 ```
